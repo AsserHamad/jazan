@@ -7,13 +7,16 @@ function Homepage(){
     return(
         <div className="home-container">
             <div className="home-video-container">
-                <video width="100%" height="100%" src="https://res.cloudinary.com/duiexwi8t/video/upload/v1601375792/Jazan/jazan-v3_rmudgy.mp4" autoPlay loop muted/>
+                <video width="100%" height="100%" src="https://res.cloudinary.com/duiexwi8t/video/upload/v1601380853/Jazan/jazan_web_bjd8ee.mp4" autoPlay loop muted/>
                 <div className="home-video-text">
-                    {/* <div className="home-video-text-specifics">
-                        A Glimpse of <span className="home-text-jazan">Jazan</span><br />
+                    <div className="home-video-text-specifics">
+                        {/* A Glimpse of <span className="home-text-jazan">Jazan</span><br />
                         Exploring Opporunities...<br />
-                        <span className="home-video-text-strategy">The Strategic Plan For JAZAN Region & JAZAN City</span>
-                    </div> */}
+                        <span className="home-video-text-strategy">The Strategic Plan For JAZAN Region & JAZAN City</span> */}
+                        <img src="/logo.png" /><br />
+                        <span className="home-video-text-strategy">We started</span><br />
+                        Building trust
+                    </div>
                 </div>
             </div>
             <div className="home-content-container">

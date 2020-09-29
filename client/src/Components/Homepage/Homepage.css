@@ -30,7 +30,11 @@
     color: white;
 }
 .home-video-text-specifics {
-    width: 60%;
+    padding-top: 25vh;
+    width:30%;
+}
+.home-video-text-specifics img{
+    width: 13vw;
 }
 .home-video-text-strategy {
     font-size: 40px;
