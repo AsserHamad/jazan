@@ -4,7 +4,7 @@
     width: 100%;
     text-align: center;
     align-items: center;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .our-team-text {
@@ -14,8 +14,33 @@
 }
 
 .our-team-title {
-    margin-top: 5vh;
+    margin-top: 4vh;
     font-weight: bold;
     font-size: 40px;
     color: rgb(83, 83, 83);
+}
+
+.our-team-logos {
+    padding: 1vw;
+    display: flex;
+}
+.our-team-member {
+    width: 16%; 
+}
+.our-team-member img {
+    width: 150px;
+}
+
+.our-team-govt-logos {
+    padding: 1vw;
+    display: flex;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+}
+.our-team-govt-member {
+    width: 40%; 
+}
+.our-team-govt-member img {
+    width: 100px;
 }

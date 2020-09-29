@@ -1,7 +1,10 @@
 import React from 'react';
 import './Navbar.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import Dropdown from 'react-dropdown';
+import { faFacebook, faInstagram, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 
 function Navbar(){
     const dropdown = [
@@ -35,7 +38,8 @@ function Navbar(){
             <div className="navbar-logo-container">
                 <img className="navbar-logo" src="https://res.cloudinary.com/duiexwi8t/image/upload/v1601365483/Jazan/Logo/new2_logo_white_hfud4x.png" />
             </div>
-            <div className="navbar-filler" />
+            <div className="navbar-filler">
+            </div>
             <div className="navbar-items">
                 {dropdown.map(item => {
                     return(
@@ -43,6 +47,9 @@ function Navbar(){
                         <div className="navbar-single-item">{item.name}</div>
                     )
                 })}
+                <div className="navbar-icon"><FontAwesomeIcon icon={faFacebook} /></div>
+                <div className="navbar-icon"><FontAwesomeIcon icon={faTwitterSquare} /></div>
+                <div className="navbar-icon"><FontAwesomeIcon icon={faInstagram} /></div>
             </div>
         </div>
     )
