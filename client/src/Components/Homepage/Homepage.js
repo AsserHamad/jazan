@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Homepage.css';
 
 function Homepage(){
-    useEffect(() => {document.getElementsByTagName('video')[0].volume = 0},[])
+    useEffect(() => {document.getElementsByTagName('video')[0].volume = 0.2},[])
     return(
         <div className="home-container">
             <div className="home-video-container">
