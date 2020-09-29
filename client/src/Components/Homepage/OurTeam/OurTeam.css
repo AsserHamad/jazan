@@ -1,0 +1,21 @@
+.our-team-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.our-team-text {
+    width: 60%;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+
+.our-team-title {
+    margin-top: 5vh;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(83, 83, 83);
+}
